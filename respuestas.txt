@@ -10,3 +10,14 @@ Al momento de ejecutar el codigo habrá al menos un argumento, el cual es :"./"n
 
 ¿Como se usa el programa?
 R//  El programa lo que hace es imprimir primero la cantidad de argumentos que se le dan al momento de ejecutar. Luego en un bucle for con limite en la cantidad de argumentos pasados, compara cada argumento con la palabra "debug" para imprimir "PROGRAMA DEBUG MODE", y compara tambien cada argumento con "-file" para saber si el programa está leyendo un archivo e imprime "PROGRAM READ FILENAME" más el nombre del archivo. 
+
+Ejercicio 3:
+¿Que hace la funcion atoi?
+R// La función atoi pasa un valor de cadena a un valor entero.
+
+Ademas de atoi existen otras funciones que permitan convertir cadenas de caracteres a numeros reales ¿cuales?
+R// Está atof, que pasa una cadena a flotante.
+
+Existen funciones que convierten valores numericos a cadenas de caracteres ¿cuales?
+R// sprintf(texto, %d, numero), esta función asigna el número del tercer parametro al segundo, y esto lo guarda en texto.
+sscanf(texto, "%d  %s", variablestring, variableint); ésta función toma lo que está en texto y almacena sus valores en la dirección de la variable correspondiente.
