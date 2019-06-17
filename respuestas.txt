@@ -1,0 +1,12 @@
+Respuestas introducción a gcc
+
+Ejercicio 2:
+¿Que hacen los parametros argc y argv?
+R// El parametro argc es la cantidad de argumentos que se envian al main al momento de ejecutar el codigo fuente.
+    El parametro *argv[] es un apuntador al arreglo con los respectivos valores (strings) de los parametros que cuenta argc.
+
+Al momento de ejecutar el codigo habrá al menos un argumento, el cual es :"./"nombre dado".
+ 
+
+¿Como se usa el programa?
+R//  El programa lo que hace es imprimir primero la cantidad de argumentos que se le dan al momento de ejecutar. Luego en un bucle for con limite en la cantidad de argumentos pasados, compara cada argumento con la palabra "debug" para imprimir "PROGRAMA DEBUG MODE", y compara tambien cada argumento con "-file" para saber si el programa está leyendo un archivo e imprime "PROGRAM READ FILENAME" más el nombre del archivo. 
